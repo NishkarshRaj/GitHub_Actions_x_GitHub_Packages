@@ -1,9 +1,7 @@
 name: Docker
 
 on:
-  push:
-    tags:
-      - 1.0
+  push
 env:
   IMAGE_NAME: nishkarsh
 
